@@ -1,5 +1,11 @@
 # C++ Unit Testing Template
 
+[![CI Testing](https://github.com/bruce-mig/cpp-gtest-gmock/actions/workflows/ci-testing.yaml/badge.svg)](https://github.com/bruce-mig/cpp-gtest-gmock/actions/workflows/ci-testing.yaml)
+[![CI Dev Container](https://github.com/bruce-mig/cpp-gtest-gmock/actions/workflows/ci-devcontainer.yaml/badge.svg)](https://github.com/bruce-mig/cpp-gtest-gmock/actions/workflows/ci-devcontainer.yaml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/bmigeri/devcon-cpp)](https://hub.docker.com/r/bmigeri/devcon-cpp)
+[![Docker Image Size](https://img.shields.io/docker/image-size/bmigeri/devcon-cpp/latest)](https://hub.docker.com/r/bmigeri/devcon-cpp)
+[![Docker Image Version](https://img.shields.io/docker/v/bmigeri/devcon-cpp?sort=semver)](https://hub.docker.com/r/bmigeri/devcon-cpp)
+
 A reference implementation for C++ unit testing with [Google Test](https://github.com/google/googletest) and [Google Mock](https://github.com/google/googletest/tree/main/googlemock), featuring a containerized development environment.
 
 ## Purpose
