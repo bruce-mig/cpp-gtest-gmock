@@ -3,6 +3,14 @@
 {
 	"name": "devcon-cpp",
 	"image": "bmigeri/devcon-cpp:latest",
+	// "build": {
+	//    "dockerfile": "Dockerfile",
+	//    "target": "development",
+	//    "args": {
+	//       "BUILD_JOBS": "8"
+	//    },
+	//    "context": "."
+	// },
 	"initializeCommand": ".devcontainer/init-volumes.sh",
 	"runArgs": [
 		"--cap-add=SYS_PTRACE",
