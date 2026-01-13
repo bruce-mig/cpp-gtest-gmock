@@ -159,7 +159,7 @@ GitHub Actions workflow includes:
 |-----------|---------|
 | C++ | 17 |
 | CMake | 3.20+ |
-| Google Test/Mock | 1.15.2 |
+| Google Test/Mock | 1.17.0 |
 | Docker | Latest |
 
 ## Adapting This Template
