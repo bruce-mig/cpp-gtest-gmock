@@ -5,14 +5,14 @@ on:
     branches: [main, develop]
     paths:
       - ".devcontainer/Dockerfile"
-      - ".github/workflows/build-push-devcontainer.yaml"
+      - ".github/workflows/ci-devcontainer.yaml"
     tags:
       - "v*"
   pull_request:
     branches: [main]
     paths:
       - ".devcontainer/Dockerfile"
-      - ".github/workflows/build-push-devcontainer.yaml"
+      - ".github/workflows/ci-devcontainer.yaml"
   workflow_dispatch:
     inputs:
       push_image:
