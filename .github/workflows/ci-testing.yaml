@@ -5,8 +5,18 @@ name: CMake on a single platform
 on:
    push:
       branches: ["main"]
+      paths:
+      - "app/"
+      - "lib/"
+      - tst/
+      - CMakeLists.txt
    pull_request:
       branches: ["main"]
+      paths:
+      - "app/"
+      - "lib/"
+      - tst/
+      - CMakeLists.txt
 
 env:
    # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
