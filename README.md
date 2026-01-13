@@ -16,7 +16,7 @@ The example code demonstrates testing patterns using a simple library with injec
 
 ## Project Structure
 
-```
+```bash
 ├── .devcontainer/          # Dev container configuration
 │   ├── Dockerfile          # C++ development image
 │   ├── devcontainer.json   # VS Code integration
@@ -109,6 +109,10 @@ cmake --build build
 
 # Run tests
 ctest --test-dir build --output-on-failure
+
+# Or using ninja
+cd build
+ninja && ./tests
 ```
 
 ### Code Coverage
