@@ -47,8 +47,8 @@
 				],
 				"cmake.buildDirectory": "${workspaceFolder}/build",
 				"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-				"C_Cpp.intelliSenseEngine": "disabled",
-				"clangd.path": "/usr/bin/clangd",
+				"C_Cpp.intelliSenseEngine": "default",
+				"C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
 				"clang-format.executable": "/usr/bin/clang-format",
 				"clang-tidy.executable": "/usr/bin/clang-tidy",
 				"files.associations": {
