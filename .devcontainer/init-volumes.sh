@@ -8,9 +8,9 @@ set -u  # Exit if undefined variable is used
 set -o pipefail  # Catch errors in pipes
 
 # Configuration
-VSCODE_VOLUME="cpp-dev-vscode-server"
-CACHE_VOLUME="cpp-dev-cache"
-IMAGE="bmigeri/cpp-dev:latest-development"
+VSCODE_VOLUME="devcon-cpp-vscode-server"
+CACHE_VOLUME="devcon-cpp-cache"
+IMAGE="bmigeri/devcon-cpp:latest"
 TARGET_UID="1000"
 TARGET_GID="1000"
 
