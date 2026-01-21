@@ -33,3 +33,21 @@ if(BUILD_TESTS)
   )
   gtest_discover_tests(tests)
 endif()
+
+
+option(USE_CLANG_TIDY "Use clang" ON)
+
+if(USE_CLANG_TIDY)
+     message(STATUS "Using clang-tidy")
+     set(CMAKE_CXX_CLANG_TIDY clang-tidy
+     --checks=modernize-*,readability-*,performance-*,-modernize-use-trailing-return-type
+     --header-filter=.*
+     --warnings-as-errors=*
+     )
+     add_compile_options(
+          -Wunused-variable
+          -Wunused-function
+          -Wunused-parameter
+          -Werror
+     )
+endif()
